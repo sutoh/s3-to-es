@@ -1,0 +1,101 @@
+{
+    "mappings" : {
+      "access-point" : {
+        "properties" : {
+          "_id_str" : {
+            "type" : "string"
+          },
+          "access_device_type" : {
+            "type" : "string"
+          },
+          "beacon_name" : {
+            "type" : "string"
+          },
+          "bid" : {
+            "type" : "string"
+          },
+          "coordinates" : {
+            "type" : "double"
+          },
+          "created_at" : {
+            "type": "date", 
+            "format": "yyyy-MM-dd HH:mm:ss zz"
+          },
+          "detected_at" : {
+            "type": "date", 
+            "format": "yyyy-MM-dd HH:mm:ss zz"
+          },
+          "event" : {
+            "type" : "string"
+          },
+          "location_id" : {
+            "type" : "long"
+          },
+          "location_name" : {
+            "type" : "string"
+          },
+          "mac" : {
+            "type" : "string"
+          },
+          "major" : {
+            "type" : "long"
+          },
+          "minor" : {
+            "type" : "long"
+          },
+          "mpid" : {
+            "type" : "string"
+          },
+          "placement_id" : {
+            "type" : "long"
+          },
+          "placement_name" : {
+            "type" : "string"
+          },
+          "point_x" : {
+            "type" : "double"
+          },
+          "point_y" : {
+            "type" : "double"
+          },
+          "remaining_battery" : {
+            "type" : "long"
+          },
+          "remaining_battery_updated_at" : {
+            "type" : "string"
+          },
+          "rssi" : {
+            "type" : "long"
+          },
+          "serial_no" : {
+            "type" : "string"
+          },
+          "service_id" : {
+            "type" : "long"
+          },
+          "service_name_en" : {
+            "type" : "string"
+          },
+          "service_name_ja" : {
+            "type" : "string"
+          },
+          "sid" : {
+            "type" : "string"
+          },
+          "tx_power" : {
+            "type" : "long"
+          },
+          "updated_at" : {
+            "type": "date", 
+            "format": "yyyy-MM-dd HH:mm:ss zz"
+          },
+          "uuid" : {
+            "type" : "string"
+          },
+          "version" : {
+            "type" : "string"
+          }
+        }
+      }
+    }
+}
